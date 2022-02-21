@@ -55,7 +55,7 @@ export default function VolumeEstimation({ route, navigation }) {
                     <Row style={{ height: 40 }}>
                     <Col ><Text style ={styles.cell}>{key}</Text></Col>
                     <Col><Text style ={styles.cell}>{value}</Text></Col>
-                     <TextInput style ={{ height:40, flex:0.93,color:"#000",borderWidth:1,textAlign:"center",}} keyboardType='numeric' onChangeText={text => onChangeText(text)} value={value}  />
+                     <TextInput style ={{ height:40, flex:0.91,color:"#000",borderWidth:1,textAlign:"center",}} keyboardType='numeric' onChangeText={text => onChangeText(text)} value={value}  />
                     </Row>
                     )
 
